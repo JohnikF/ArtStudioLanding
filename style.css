@@ -6,3 +6,47 @@
     box-sizing: border-box;
     font-family: "Montserrat Alternates", sans-serif;
 }
+
+aside {
+    background-color: #222222;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.menu-item {
+    margin: 15px;
+}
+
+.menu-item:hover {
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    35% {
+        transform: rotate(10deg);
+    }
+
+    70% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
