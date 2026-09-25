@@ -9,10 +9,25 @@
 
 aside {
     background-color: #222222;
-    height: 100vh;
     position: fixed;
+}
+
+#nav-menu {
+    height: 100vh;
     top: 0;
     left: 0;
+}
+
+#social {
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.social-item-img {
+    margin: 15px;
 }
 
 nav {
