@@ -48,9 +48,40 @@ nav {
     animation-iteration-count: 1;
 }
 
+#hero-screen {
+    height: 100vh;
+}
+
+.hero-left, .hero-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.dark-blue {
+    background-color: #23536D;
+}
+
+.red {
+    background-color: #ff6969;
+}
+
+.yellow {
+    background-color: #ffe49d;
+}
+
+.light-blue {
+    background-color: #67c5e2;
+}
+
+.color {
+    height: 50%;
+    width: 50%;
+}
+
 @keyframes shake {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     35% {
