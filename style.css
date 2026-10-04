@@ -50,12 +50,17 @@ nav {
 
 #hero-screen {
     height: 100vh;
+    display: flex;
 }
 
 .hero-left, .hero-right {
     height: 100%;
     width: 50%;
     display: flex;
+}
+
+.hero-left {
+    flex-wrap: wrap;
 }
 
 .dark-blue {
@@ -72,6 +77,11 @@ nav {
 
 .light-blue {
     background-color: #67c5e2;
+    border-bottom-right-radius: 50%;
+}
+
+section {
+    padding-left: 80px;
 }
 
 .color {
