@@ -49,7 +49,6 @@ nav {
 }
 
 #hero-screen {
-    height: 100vh;
     display: flex;
 }
 
@@ -82,6 +81,8 @@ nav {
 
 section {
     padding-left: 80px;
+    width: 100%;
+    height: 100vh;
 }
 
 .color {
@@ -120,6 +121,37 @@ section {
     font-size: 20px;
     font-weight: 700;
     flex-grow: 1;
+}
+
+#about {
+    position: relative;
+}
+
+.about-background {
+    background-color: #ff6969;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bg-text {
+    padding-left: 90px;
+    font-size: 150px;
+    font-weight: 700;
+    opacity: 0.2;
+}
+
+.about-rect {
+
+}
+
+.rect1 {
+    background-color: #547bc7;
+    width: 217px;
+    height: 222px;
 }
 
 @keyframes shake {
