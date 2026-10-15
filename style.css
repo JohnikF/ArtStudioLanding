@@ -144,14 +144,52 @@ section {
     opacity: 0.2;
 }
 
-.about-rect {
+.about-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 
+}
+
+.about-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    width: 30%;
+}
+
+.about-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-rect {
+    box-shadow: 10px 10px 0px #1d1d1d;
+    border-radius: 0 20px;
 }
 
 .rect1 {
     background-color: #547bc7;
     width: 217px;
     height: 222px;
+    align-self: flex-end;
+}
+
+.rect2 {
+    background-color: #3993ba;
+    width: 174px;
+    height: 166px;
+}
+
+.rect3 {
+    background-color: #e36fc3;
+    width: 269px;
+    height: 174px;
+    align-self: flex-start;
 }
 
 @keyframes shake {
