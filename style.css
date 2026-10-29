@@ -252,8 +252,52 @@ section {
 
 .photography-left {
     background-image: url("images/pictures/4th-section-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+.photography-right {
+    position: relative;
+    overflow: hidden;
+    flex-grow: 2;
+    flex-basis: 500px;
+}
+
+.photography-bg {
+    background-color: #23536D;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.photography-content {
+    height: 100%;
+
+}
+.photography-title {
+    font-size: 50px;
+    color: white;
+    text-align: right;
+}
+
+.photography-text {
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+.bg-img {
+    background-image: url("images/pictures/4th-section-bg.svg");
     width: 100%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @keyframes shake {
