@@ -307,6 +307,59 @@ section {
     position: relative;
 }
 
+.gallery-title {
+    background-color: #ff6969;
+    color: white;
+    padding: 100px 0;
+    text-align: right;
+    font-size: 50px;
+}
+
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 50%;
+    flex-grow: 1;
+    flex-basis: 300px;
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.gallery-item:hover {
+    opacity: 1;
+}
+
+.item1 {
+    order: 7;
+}
+
+.item2 {
+    order: 6;
+}
+
+.item3 {
+    order: 4;
+}
+
+.item4 {
+    order: 5;
+}
+
+.item5 {
+    order: 3;
+}
+
+.item6 {
+    order: 1;
+}
+
+.item7 {
+    order: 2;
+}
+
 @keyframes shake {
     0% {
         transform: rotate(0deg);
