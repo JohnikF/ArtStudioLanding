@@ -284,6 +284,7 @@ section {
     height: 100%;
 
 }
+
 .photography-title {
     font-size: 50px;
     color: white;
@@ -305,6 +306,10 @@ section {
     background-position: center;
     z-index: 10;
     position: relative;
+}
+
+#gallery {
+    height: auto;
 }
 
 .gallery-title {
@@ -358,6 +363,38 @@ section {
 
 .item7 {
     order: 2;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    background-image: url("images/pictures/form-left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*flex-grow: 1;
+    flex-shrink: 5;
+    flex-basis: 200px; */
+    flex: 1 5 200px;
+}
+
+.mid-side {
+    background-color: #23536D;
+    flex: 8 1 auto;
+}
+
+.right-side {
+    background-image: url("images/pictures/form-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   /* flex-grow: 1;
+    flex-shrink: 5;
+    flex-basis: 200px; */
+    flex: 1 5 200px;
 }
 
 @keyframes shake {
@@ -453,8 +490,4 @@ section {
     .bg-img {
         height: 50%;
     }
-
-;
-
-
 }
